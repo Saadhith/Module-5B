@@ -17,9 +17,28 @@ To write a Python program using Pandas to **join two DataFrames along rows** (ro
 ---
 
 ## 💻 Program
+```
+import pandas as pd
 
-Add code here
+a=eval(input())
+b=eval(input())
+df1=pd.DataFrame(a)
+df2=pd.DataFrame(b)
+print("Original DataFrames:")
+print(df1)
+print("-------------------------------------")
+print(df2)
+print()
+con=pd.concat([df1,df2])
+print("Join the said two dataframes along rows:")
 
-## Output
+print(con)
+```
 
-## Result
+## Output:
+![image](https://github.com/user-attachments/assets/b6fde11b-e4e0-420d-ab7b-68041405ec8c)
+
+
+## Result:
+Thus the program to write a Python program using Pandas to **join two DataFrames along rows** (row-wise concatenation) and assign all data to a new DataFrame is executed successfully.
+
